@@ -10,7 +10,7 @@
 </head>
 <script>
   function send(){
-    alert("message sent to the team")
+    alert("message not sent to the team")
   }
 </script>
 <body>
