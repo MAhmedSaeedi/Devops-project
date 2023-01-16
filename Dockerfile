@@ -2,8 +2,7 @@ FROM ubuntu:16.04
 
 # Install prerequisites
 RUN apt-get -y update && apt-get -y upgrade
-RUN apt-get -y install openjdk-11-jdk
-RUN apt-get -y install curl
+RUN apt install -y install openjdk-11-jdk
 RUN mkdir /usr/local/tomcat
 RUN sudo apt install tomcat9 tomcat9-admin -y
 
